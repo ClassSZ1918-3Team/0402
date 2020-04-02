@@ -1,0 +1,61 @@
+#root,.ant-layout {
+  height: 100%;
+}
+// 左边导航
+.ant-layout-sider{
+  .brand {
+    img {
+      display: inline-block;
+      height: 35px;
+      line-height: 35px;
+      padding-left: 20px;
+      vertical-align: middle;
+    }
+    span {
+      font-size: 16px;
+      color: #fff;
+      vertical-align: middle;
+      padding-left: 8px;
+    }
+    overflow: hidden;
+    height: 60px;
+    font-size: 1.3em;
+    line-height: 64px;
+    color: gold;
+    display: block;
+    font-size: 0;
+  }
+}
+
+//右边主体
+.site-layout{
+
+  // 头部区
+  .ant-layout-header{
+    color: #fff;
+    padding: 0 50px 0;
+    .login-user{
+      text-align: right;
+      float: right;
+      span {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  //内容区
+  .ant-layout-content {
+    .ant-breadcrumb{
+      margin: 16px
+    }
+    .site-layout-background{
+      padding: 24px;
+      min-height: 360px;
+    }
+  }
+
+  // 尾部区
+  .ant-layout-footer{
+    text-align: center
+  }
+}
